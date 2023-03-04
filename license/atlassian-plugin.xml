@@ -1,0 +1,8 @@
+<atlassian-plugin...>
+   <plugin-info...>
+     <!--licensing-->
+        <param name="atlassian-licensing-enabled">${licensing.enabled}</param>
+     <!--/licensing-->
+   </plugin-info...>
+</atlassian-plugin...>
+                    
