@@ -1,5 +1,14 @@
 <project...>
+  <dependencies...>
+    <dependency>
+			<groupId>com.atlassian.plugin</groupId>
+			<artifactId>atlassian-spring-scanner-annotation</artifactId>
+			<version>${atlassian.spring.scanner.version}</version>
+			<scope>provided</scope>
+		</dependency>
+  </dependencies...>
   <properties...>
-     <licensing.enabled>false</licensing.enabled>
+    <atlassian.spring.scanner.version>2.1.16</atlassian.spring.scanner.version>
+    <licensing.enabled>false</licensing.enabled>
   </properties...>
 </project...>

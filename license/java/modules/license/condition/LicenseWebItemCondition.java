@@ -5,10 +5,10 @@ import com.atlassian.jira.plugin.webfragment.conditions.AbstractIssueWebConditio
 import com.atlassian.jira.plugin.webfragment.model.JiraHelper;
 import com.atlassian.jira.user.ApplicationUser;
 
-public class LicensedWebItemCondition extends AbstractIssueWebCondition {
+public class LicenseWebItemCondition extends AbstractIssueWebCondition {
     private LicenseEvaluator licenseEvaluator;
 
-    public LicensedWebItemCondition(LicenseEvaluator licenseEvaluator) {
+    public LicenseWebItemCondition(LicenseEvaluator licenseEvaluator) {
         this.licenseEvaluator = licenseEvaluator;
     }
 
