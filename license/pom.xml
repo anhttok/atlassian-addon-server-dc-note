@@ -19,6 +19,9 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies...>
+	<build...>
+		<finalName>${project.artifactId}-${project.version}-${licensing.enabled}</finalName>
+	</build...>	 
 	<properties...>
 		<atlassian.spring.scanner.version>2.1.16</atlassian.spring.scanner.version>
 		<licensing.enabled>false</licensing.enabled>
