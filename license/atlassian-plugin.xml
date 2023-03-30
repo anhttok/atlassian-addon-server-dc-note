@@ -4,6 +4,7 @@
         <param name="atlassian-licensing-enabled">${licensing.enabled}</param>
      <!--/licensing-->
    </plugin-info...>
+   <component-import key="pluginLicenseManager" interface="com.atlassian.upm.api.license.PluginLicenseManager" />
    <component key="licenseEvaluator" class=".....LicenseEvaluator"/>
 </atlassian-plugin...>
                     
