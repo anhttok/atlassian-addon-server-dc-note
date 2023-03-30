@@ -4,5 +4,6 @@
         <param name="atlassian-licensing-enabled">${licensing.enabled}</param>
      <!--/licensing-->
    </plugin-info...>
+   <component key="licenseEvaluator" class=".....LicenseEvaluator"/>
 </atlassian-plugin...>
                     
